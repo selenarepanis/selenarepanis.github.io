@@ -1,0 +1,23 @@
+body {
+  font-family: arial;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+
+h1 {
+font-family: courier;
+font-size: 60px;
+}
+
+
+h2 {
+  font-family: monospace;
+  font-size: 40px;
+}
+
+img {
+  max-width: 500px;
+  max-height: 700px;
+}
