@@ -171,14 +171,17 @@ width: 25%;
 .img-circularleft {
   border-radius: 70%;
   margin-left: -40px;
+  border: solid black 1px;
 }
 
 .img-circularnarrow {
   border-radius: 100%;
+  border: solid black 1px;
 }
 
 .img-circular {
   border-radius: 70%;
+  border: solid black 1px;
 }
 
 
