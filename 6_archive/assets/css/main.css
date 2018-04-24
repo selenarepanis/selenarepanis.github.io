@@ -31,8 +31,8 @@ font-size: 23px;
    font-family: arial;
    padding: 10px;
    padding-right: 20%;
-
  }
+
 
 a {
  color: black;
@@ -49,6 +49,7 @@ a {
   font-family: arial;
   padding: 10px;
   padding-left: 20%;
+  z-index: 3;
 }
 
 .menu {
@@ -144,12 +145,21 @@ overflow: hidden;
 transition: 1s;
 }
 
+.nav.active {
+  width: 33.3%;
+}
+
+.nav.none {
+  width: 0%;
+}
+
 .button {
 display: block;
 border-bottom: 1px solid black;
 padding: 10px;
 font-family: arial;
 font-size: 23px;
+cursor: pointer;
 }
 
 
@@ -171,17 +181,14 @@ width: 25%;
 .img-circularleft {
   border-radius: 70%;
   margin-left: -40px;
-  border: solid black 1px;
 }
 
 .img-circularnarrow {
   border-radius: 100%;
-  border: solid black 1px;
 }
 
 .img-circular {
   border-radius: 70%;
-  border: solid black 1px;
 }
 
 
