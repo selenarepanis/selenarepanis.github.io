@@ -149,9 +149,6 @@ transition: 1s;
   width: 33.3%;
 }
 
-.nav.none {
-  width: 0%;
-}
 
 .button {
 display: block;
