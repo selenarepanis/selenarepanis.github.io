@@ -1,9 +1,27 @@
 body {
 background-color: khaki;
-font-family: helvetica;
 font-size: 23px;
-
+transition:2s;
 }
+
+.body-khaki {
+  background-color: khaki;
+  transition:2s;
+}
+
+.body-blue {
+  background-color: blue;
+  transition: 2s;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.border {
+  border: 10px solid red;
+}
+
 
 .bigheading {
  position: fixed;
@@ -142,11 +160,11 @@ padding-top: 10px;
 height: 100vh; /*viewport height*/
 background-color: white;
 overflow: hidden;
-transition: 1s;
+transition: 1.5s;
 }
 
 .nav.active {
-  width: 33.3%;
+  width: 20%;
 }
 
 
@@ -154,7 +172,7 @@ transition: 1s;
 display: block;
 border-bottom: 1px solid black;
 padding: 10px;
-font-family: arial;
+font-family: helvetica;
 font-size: 23px;
 cursor: pointer;
 }

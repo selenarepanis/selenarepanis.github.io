@@ -1,12 +1,31 @@
 $(document).ready(function() {
 
-$('.menu').hover(function(){
-$('.nav').addClass('active');
+
+// Hover in
+$('.menu').mouseenter(function(){
+  $('body').addClass('body-khaki');
+  $('body').removeClass('body-blue');
+  $('.nav').addClass('active');
 
 });
 
+// Hover out
+$('.nav').mouseleave(function(){
+  $('body').removeClass('body-khaki');
+  $('body').addClass('body-blue');
+  $('.nav').removeClass('active');
 
-//*the buttons are below... *//
+});
+
+$('.item').click(function() {
+  $('.item').removeClass('border');
+  $(this).toggleClass('border');
+});
+
+
+
+
+//*the button actions are below... *//
 
 $(".b-fella").click(function() {
     $(".item").addClass("hide");
