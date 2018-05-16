@@ -1,0 +1,129 @@
+body {
+  background-color: peachpuff;
+  background: url("../images/background.png") no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+
+.main1 {
+padding-top: 10px;
+margin-left: 20px;
+font-family: arial;
+color: black;
+padding: 70px;
+font-size: 30px;
+line-height: 40px;
+}
+
+
+.navigation {
+  border: 1px solid black;
+  right: 0px;
+  top: 0px;
+  position: fixed;
+  padding-top: 10px;
+  height: 100vh; /*viewport height*/
+  background-color: white;
+  overflow: scroll;
+  width: 20%;
+}
+
+.button {
+display: block;
+padding: 40px;
+font-family: helvetica;
+font-size: 20px;
+cursor: pointer;
+}
+
+.header {
+  font-family: arial black;
+  font-size: 100px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.f-text{
+  display: block;
+}
+
+.footer {
+  font-family: times;
+  padding: 10px;
+  border: 1px solid black;
+  position: fixed;
+  bottom: 0px;
+  height: 5vh; /*viewport height*/
+  background-color: yellow;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100vw;
+}
+
+.container {
+  padding:0px;
+  background-color: white;
+  height: 25px;
+  width:100vw;
+  overflow:hidden;
+  z-index: 2;
+  position: fixed;
+  border: 1px solid black;
+}
+
+.marquee{
+font-family: helvetica;
+color: green;
+display:block;
+position:fixed;
+overflow: hidden;
+width:100vw;
+height:20px;
+animation:scroll 30s linear infinite;
+padding:3px;
+z-index: 2;
+}
+
+.marquee:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes scroll{
+0% {left:100vw;}
+100% {left:-100vw;}
+}
+
+.pop {
+  width: 500px;
+  height:300px;
+}
+
+.p-sub {
+  background-color: yellow;
+  position: fixed;
+  bottom:0;
+  right:0;
+  display: none;
+}
+
+.p-bye {
+  background-color: lightblue;
+  position: fixed;
+  left:50px;
+  top:100px;
+  display: none;
+}
+
+.message {
+  padding: 20px;
+  font-size:100px;
+  font-family: arial;
+}
+
+.show {
+  display: block;
+}
