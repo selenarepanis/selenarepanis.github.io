@@ -1,0 +1,76 @@
+body {
+  background-color: white;
+  padding-top: 200px;
+}
+
+
+.header {
+  font-size: 25px;
+  text-align: left;
+  font-family: times;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+
+
+.footer {
+  font-family: arial;
+  padding: 14px;
+  border: 1px solid darkgrey;
+  position: fixed;
+  bottom: 0px;
+  height: 5vh; /*viewport height*/
+  background-color: whitesmoke;
+  color: darkgrey;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100vw;
+}
+
+.topper {
+  font-family: arial;
+  padding: 14px;
+  border: 1px solid grey;
+  position: fixed;
+  top: 0px;
+  height: 5vh; /*viewport height*/
+  background-color: whitesmoke;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100vw;
+}
+
+
+.marquee{
+font-family: arial;
+color: black;
+display:block;
+position:fixed;
+overflow: hidden;
+width:100vw;
+height:20px;
+animation:scroll 30s linear infinite;
+padding:0px;
+z-index: 2;
+}
+
+.marquee:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes scroll{
+0% {left:100vw;}
+100% {left:-100vw;}
+}
+
+
+.input {
+position: fixed;
+margin-left: 40%;
+}
