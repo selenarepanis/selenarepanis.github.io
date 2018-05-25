@@ -4,6 +4,13 @@ body {
   background-size: cover;
 }
 
+.clap {
+  bottom: 0px;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: auto;
+}
+
 .ideology {
 padding-top: 50px;
 margin-left: 20px;
@@ -12,6 +19,44 @@ color: black;
 padding: 70px;
 font-size: 50px;
 line-height: 70px;
+}
+
+.forgotten {
+padding-top: 50px;
+margin-left: 50px;
+font-family: arial;
+color: black;
+padding: 70px;
+font-size: 50px;
+line-height: 70px;
+}
+
+.tinderbot {
+padding-top: 50px;
+margin-left: 20px;
+font-family: arial;
+color: black;
+padding: 70px;
+font-size: 50px;
+line-height: 70px;
+}
+
+.younggirl {
+padding-top: 50px;
+margin-left: 20px;
+font-family: arial;
+color: black;
+padding: 70px;
+font-size: 50px;
+line-height: 70px;
+}
+
+.t-last {
+  margin-bottom: 600px;
+}
+
+.t-first {
+  margin-top: 600px;
 }
 
 
@@ -28,11 +73,14 @@ line-height: 70px;
 }
 
 .button {
-display: block;
-padding: 40px;
-font-family: helvetica;
-font-size: 20px;
-cursor: pointer;
+  display: block;
+  padding: 50px;
+  font-family: helvetica;
+  font-size: 50px;
+  cursor: pointer;
+  line-height: 140px;
+  margin-left: 50px;
+
 }
 
 .header {
