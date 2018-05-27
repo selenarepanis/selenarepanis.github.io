@@ -1,0 +1,52 @@
+body {
+background-color: blue;
+font-family: 'Modak'; arial black;
+cursor: auto;
+}
+
+.clap {
+  bottom: 0px;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: auto;
+}
+
+.fish {
+  bottom: 0px;
+  left: 55%;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: auto;
+}
+
+.snowglobe {
+  bottom: 0px;
+  right: 0px;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: auto;
+}
+
+.memories {
+  bottom: 0px;
+  left: 20%;
+  position: fixed;
+  z-index: auto;
+}
+
+.intro {
+  font-size: 100px;
+  padding: 100px;
+  color: white;
+  text-transform: inherit;
+
+}
+
+.content {
+  cursor: text;
+}
+
+.content:hover {
+  color: red;
+  transition-duration: 2s;
+}

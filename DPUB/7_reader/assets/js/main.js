@@ -73,6 +73,7 @@ $('a[href*="#"]')
     }
   });
 
+//*sound*//
 
   var audioHorn = document.createElement('audio');
          audioHorn.setAttribute('src', 'https://www.soundjay.com/human/sounds/applause-5.mp3');
