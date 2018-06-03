@@ -1,7 +1,5 @@
 body {
-  background-color: peachpuff;
-  background: url("../images/background.png") no-repeat center center fixed;
-  background-size: cover;
+  background-color: white;
 }
 
 .clap {
@@ -16,29 +14,9 @@ padding-top: 50px;
 margin-left: 20px;
 font-family: arial;
 color: black;
-padding: 70px;
-font-size: 50px;
-line-height: 70px;
-}
-
-.forgotten {
-padding-top: 50px;
-margin-left: 50px;
-font-family: arial;
-color: black;
-padding: 70px;
-font-size: 50px;
-line-height: 70px;
-}
-
-.tinderbot {
-padding-top: 50px;
-margin-left: 20px;
-font-family: arial;
-color: black;
-padding: 70px;
-font-size: 50px;
-line-height: 70px;
+font-size: 24px;
+line-height: 24px;
+-webkit-column-count: 2;
 }
 
 .younggirl {
@@ -46,10 +24,29 @@ padding-top: 50px;
 margin-left: 20px;
 font-family: arial;
 color: black;
-padding: 70px;
-font-size: 50px;
-line-height: 70px;
+font-size: 20px;
+line-height: 25px;
 }
+
+.tinderbot {
+padding-top: 50px;
+margin-left: 20px;
+font-family: arial;
+color: black;
+font-size: 15px;
+line-height: 20px;
+-webkit-column-count: 2;
+}
+
+.forgotten {
+padding-top: 50px;
+margin-left: 50px;
+font-family: arial;
+color: black;
+font-size: 25px;
+line-height: 25px;
+}
+
 
 .t-last {
   margin-bottom: 600px;
@@ -74,21 +71,15 @@ line-height: 70px;
 
 .button {
   display: block;
+  color: white;
   padding: 50px;
   font-family: helvetica;
   font-size: 50px;
   cursor: pointer;
   line-height: 140px;
   margin-left: 50px;
+  text-decoration: none;
 
-}
-
-.header {
-  font-family: arial black;
-  font-size: 100px;
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-bottom: 50px;
 }
 
 .f-text{
@@ -96,13 +87,13 @@ line-height: 70px;
 }
 
 .footer {
-  font-family: times;
+  font-family: arial;
   padding: 10px;
   border: 1px solid black;
   position: fixed;
   bottom: 0px;
   height: 5vh; /*viewport height*/
-  background-color: yellow;
+  background-color: green;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -154,34 +145,42 @@ z-index: 2;
 }
 
 .p-sub {
-  background-color: green;
+  background-color: yellow;
+  border: 1px black solid;
   position: fixed;
   bottom:0;
   right:0;
   display: none;
+  font-family: arial black;
+  font-size:40px;
+
 }
 
 .p-bye {
-  background-color: red;
+  background-color: yellow;
+  border: 1px black solid;
   position: fixed;
   left:50px;
   top:100px;
   display: none;
+  font-family: arial;
+  font-size:20px;
 }
 
 .p-congrats {
-  background-color: rebeccapurple;
+  background-color: yellow;
+  border: 1px black solid;
   position: fixed;
   right: 30px;
   top: 200px;
   display: none;
   z-index: 3;
+  font-family: cursive;
+  font-size:25px;
 }
 
 .message {
   padding: 20px;
-  font-size:20px;
-  font-family: arial;
 }
 
 .show {
@@ -193,6 +192,12 @@ z-index: 2;
 }
 
 a {
- color: black;
  cursor: pointer;
+ color: black;
+ }
+
+.a.button {
+   color: white;
+   cursor: pointer;
+   text-decoration: none;
  }

@@ -1,0 +1,54 @@
+body {
+background-color: white;
+font-family: arial black;
+cursor: auto;
+}
+
+.writing {
+  bottom: 0px;
+  left: 0px;
+  padding-bottom: 35px;
+  position: fixed;
+  z-index: auto;
+}
+
+.book {
+  bottom: 0px;
+  left: 50%;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: auto;
+}
+
+.fish {
+  bottom: 0px;
+  left: 25%;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: auto;
+}
+
+.karaoke {
+  bottom: 0px;
+  right: 30px;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: auto;
+}
+
+
+.intro {
+  font-size: 50px;
+  padding: 100px;
+  color: black;
+}
+
+.content {
+  cursor: text;
+  font-size: 50px;
+}
+
+.content:hover {
+  color: black;
+  transition-duration: 2s;
+}
