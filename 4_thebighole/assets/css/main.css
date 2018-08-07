@@ -1,5 +1,5 @@
 body {
-  background-color: peachpuff;
+  background-color: white;
   height: 100%;
   position: fixed;
 }
@@ -8,11 +8,11 @@ body {
   white-space: nowrap;
   position: fixed;
   left: 100%;
-  top: 150px;
+  margin-top: 80px;
   transform-origin: top left 0;
   transform: rotate( 90deg );
-  font-family: MedievalSharp;
-  font-size: 100px;
+  font-family: arial;
+  font-size: 50px;
 }
 
 .boxleft {
@@ -25,12 +25,6 @@ body {
    overflow-y: auto;
 }
 
-.gallery {
-  max-width: 200px;
-  max-height: 200px;
-}
-
-
 
 .boxright {
   height: 100%;
@@ -40,7 +34,7 @@ body {
   overflow-y: auto;
   font-family: arial;
   background-color: blue;
-  color: white;
+  color: black;
 }
 
 
@@ -79,7 +73,7 @@ body {
 .container {
   bottom: 0;
   padding:0px;
-  background-color: white;
+  background-color: blue;
   height: 25px;
   width:100vw;
   overflow:hidden;
