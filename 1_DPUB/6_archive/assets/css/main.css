@@ -24,6 +24,7 @@ transition:2s;
 
 
 .bigheading {
+margin-top: 20px;
  position: fixed;
  font-family: arial;
  z-index: 2px;
@@ -83,6 +84,7 @@ a {
 }
 
 .fish {
+  margin-top: 50px;
   width:200px;
   height:200px;
   background-color: yellow;

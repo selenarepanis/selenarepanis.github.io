@@ -9,6 +9,19 @@ body {
   z-index: auto;
 }
 
+.intextimage {
+  padding: 30px;
+  font-family: arial;
+  font-size: 10px;
+}
+
+.texttitle {
+  color: black;
+  font-size: 60px;
+  line-height: 80px;
+
+}
+
 .ideology {
 padding-top: 50px;
 margin-left: 20px;
@@ -28,6 +41,12 @@ font-size: 20px;
 line-height: 25px;
 }
 
+.intextemphasis {
+  font-size: 40px;
+  font-family: cursive;
+  line-height: 60px;
+}
+
 .tinderbot {
 padding-top: 50px;
 margin-left: 20px;
@@ -43,8 +62,8 @@ padding-top: 50px;
 margin-left: 50px;
 font-family: arial;
 color: black;
-font-size: 25px;
-line-height: 25px;
+font-size: 20px;
+line-height: 20px;
 }
 
 
