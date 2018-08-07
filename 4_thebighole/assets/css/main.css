@@ -8,11 +8,12 @@ body {
   white-space: nowrap;
   position: fixed;
   left: 100%;
-  margin-top: 80px;
+  top: 50px;
   transform-origin: top left 0;
   transform: rotate( 90deg );
   font-family: arial;
   font-size: 50px;
+  background-color: white;
 }
 
 .boxleft {
