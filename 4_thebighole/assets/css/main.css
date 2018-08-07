@@ -4,6 +4,17 @@ body {
   position: fixed;
 }
 
+.header {
+  white-space: nowrap;
+  position: fixed;
+  left: 100%;
+  top: 150px;
+  transform-origin: top left 0;
+  transform: rotate( 90deg );
+  font-family: MedievalSharp;
+  font-size: 100px;
+}
+
 .boxleft {
    height: 100%;
    width: 500px;
@@ -34,7 +45,7 @@ body {
 
 
 .text {
-  font-family: MedievalSharp;
+  font-family: arial;
   font-size: 45px;
   font-weight: bolder;
   text-align: left;
