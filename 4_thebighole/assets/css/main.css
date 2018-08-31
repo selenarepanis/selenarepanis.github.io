@@ -8,19 +8,17 @@ body {
   white-space: nowrap;
   position: fixed;
   left: 100%;
-  top: 50px;
+  top: 10px;
   transform-origin: top left 0;
   transform: rotate( 90deg );
   font-family: arial;
   font-size: 50px;
-  background-color: white;
 }
 
 .boxleft {
    height: 100%;
    width: 500px;
    float: left;
-   border:1px solid blue;
    background-color: white;
    opacity: 0.9;
    overflow-y: auto;
@@ -31,9 +29,9 @@ body {
   height: 100%;
   width: 800px;
   float: left;
-  border:1px solid blue;
   overflow-y: auto;
   font-family: arial;
+  border: solid black 1px;
   background-color: blue;
   color: black;
 }
