@@ -1,0 +1,42 @@
+body {
+background-color: blue;
+}
+
+
+.menu {
+  font-size: 3vw;
+}
+
+
+
+.button {
+  padding: 5px;
+  height: 8vw;
+  line-height: 8vw;
+  width: 50vw;
+  font-family: 'Space Mono', monospace;
+  color: black;
+  background-color: white;
+  border: 1px black solid;
+  margin-left: 20%;
+  text-align: center;
+
+}
+
+.name {
+  padding: 5px;
+  font-size: 1vw;
+  height: 10vw;
+  line-height: 1vw;
+  width: 100vw;
+  font-family: Arial;
+  color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+  color: Chartreuse;
+}

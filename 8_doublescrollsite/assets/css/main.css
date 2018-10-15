@@ -1,0 +1,96 @@
+body {
+  background-color: white;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+.pop {
+  width: 500px;
+  height:300px;
+  cursor: pointer;
+}
+
+
+.p-congrats {
+  background-color: yellow;
+  border: 1px black solid;
+  position: fixed;
+  right: 30px;
+  top: 200px;
+  display: none;
+  z-index: 3;
+  font-family: cursive;
+  font-size:25px;
+}
+
+.p-bye {
+  background-color: yellow;
+  border: 1px black solid;
+  position: fixed;
+  left:50px;
+  top:100px;
+  display: none;
+  font-family: arial;
+  font-size:20px;
+}
+
+.message {
+  padding: 20px;
+}
+
+.show {
+  display: block;
+}
+
+.close {
+  font-family: arial black;
+}
+
+.contents {
+  font-family: times;
+  width: 50%;
+  font-size: 2vw;
+  left: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  min-height: 1000px;
+  flex-direction: column;
+
+}
+
+.resize {
+    width: 500px;
+    height: auto;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'space mono'; monospace;
+  color: blue;
+}
+
+.contact {
+  position: -webkit-sticky;
+  position: fixed;
+  width: 50%;
+  overflow: auto;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+  padding-right: 50px;
+  font-family: arial;
+  padding-bottom: 10px;
+  font-size: 1.5vw;
+
+}
