@@ -1,218 +1,98 @@
 body {
-background-color: khaki;
-font-size: 23px;
-transition:2s;
+  background-color: white;
 }
-
-.body-khaki {
-  background-color: khaki;
-  transition:2s;
-}
-
-.body-blue {
-  background-color: blue;
-  transition: 2s;
-}
-
-.item {
-  cursor: pointer;
-}
-
-.border {
-  border: 10px solid red;
-}
-
-
-.bigheading {
-margin-top: 20px;
- position: fixed;
- font-family: arial;
- z-index: 2px;
- text-transform: uppercase;
- top: 10px;
- text-align: left;
- font-size: 2vw;
- letter-spacing: -0.05em;
- width: 100%;
- z-index: 2;
- color: black;
- padding-left: 4%;
-}
-
-
-.header {
-   line-height: 40px;
-   white-space: nowrap;
-   position: fixed;
-   right: 100%;
-   transform-origin: top right 0;
-   transform: rotate( 270deg );
-   font-family: arial;
-   padding: 10px;
-   padding-right: 20%;
- }
-
 
 a {
- color: black;
- cursor: pointer;
- }
-
-.extra {
-  line-height: 40px;
-  white-space: nowrap;
-  position: fixed;
-  left: 100%;
-  transform-origin: top left 0;
-  transform: rotate( 90deg );
-  font-family: arial;
-  padding: 10px;
-  padding-left: 20%;
-  z-index: 3;
+    text-decoration: underline;
+    color: black;
 }
 
-.menu {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  z-index: 3;
-  padding: 10px;
-  font-family: helvetica;
-  font-size: 50px;
-  background-color: red;
+
+.pop {
+  width: 500px;
+  height:300px;
   cursor: pointer;
 }
 
-.fish {
-  margin-top: 50px;
-  width:200px;
-  height:200px;
+
+.p-congrats {
   background-color: yellow;
-  border-radius: 100%;
-  z-index:2;
-  left: 70%;
-  position: relative;
-  animation: colorchange 4s infinite alternate;
+  border: 1px black solid;
+  position: fixed;
+  right: 30px;
+  top: 200px;
+  display: none;
+  z-index: 3;
+  font-family: cursive;
+  font-size:25px;
 }
 
-@keyframes colorchange {
-    from {background-color: khaki;}
-    to {background-color: green;}
-}
-
-.ffish {
-  width:200px;
-  height:200px;
+.p-bye {
   background-color: yellow;
-  border-radius: 100%;
-  z-index:2;
-  left: 60%;
-  position: relative;
-  animation: colorchange 2s infinite alternate;
+  border: 1px black solid;
+  position: fixed;
+  left:50px;
+  top:100px;
+  display: none;
+  font-family: arial;
+  font-size:20px;
 }
 
-@keyframes colorchange {
-    from {background-color: khaki;}
-    to {background-color: green;}
+.message {
+  padding: 20px;
 }
-
-.fffish {
-  width:200px;
-  height:200px;
-  background-color: yellow;
-  border-radius: 100%;
-  z-index:2;
-  left: 50%;
-  position: relative;
-  animation: colorchange 2s infinite alternate;
-}
-
-@keyframes colorchange {
-    from {background-color: khaki;}
-    to {background-color: green;}
-}
-
-.ffffish {
-  width:200px;
-  height:200px;
-  background-color: yellow;
-  border-radius: 100%;
-  z-index:2;
-  left: 40%;
-  position: relative;
-  animation: colorchange 3s infinite alternate;
-}
-
-@keyframes colorchange {
-    from {background-color: khaki;}
-    to {background-color: green;}
-}
-
-.menu.active {
-  background-color: red;
-}
-
-.nav {
-width: 0%;
-position: fixed;
-top: 0px;
-left: 0px;
-z-index: 2;
-padding-top: 10px;
-height: 100vh; /*viewport height*/
-background-color: white;
-overflow: hidden;
-transition: 1.5s;
-}
-
-.nav.active {
-  width: 20%;
-}
-
-
-.button {
-display: block;
-border-bottom: 1px solid black;
-padding: 10px;
-font-family: helvetica;
-font-size: 23px;
-cursor: pointer;
-}
-
-
-.main {
-  overflow: hidden;
-  position: relative;
-  padding: 50px;
-}
-
-.item {
-float: left;
-width: 25%;
-}
-
-.item img {
-  max-width: 100%;
-}
-
-.img-circularleft {
-  border-radius: 70%;
-  margin-left: -40px;
-}
-
-.img-circularnarrow {
-  border-radius: 100%;
-}
-
-.img-circular {
-  border-radius: 70%;
-}
-
 
 .show {
   display: block;
 }
 
-.hide {
-  display: none;
+.close {
+  font-family: arial black;
+}
+
+.contents {
+  font-family: times;
+  width: 50%;
+  font-size: 1.5vw;
+  left: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  min-height: 1000px;
+  flex-direction: column;
+
+}
+
+.resize {
+    width: 500px;
+    height: auto;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family:'space mono'; monospace;
+  color: blue;
+  font-size: 2vw;
+}
+
+.contact {
+  position: -webkit-sticky;
+  position: fixed;
+  width: 50%;
+  overflow: auto;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+  padding-right: 50px;
+  font-family: arial;
+  padding-bottom: 10px;
+  font-size: 1.5vw;
+
 }

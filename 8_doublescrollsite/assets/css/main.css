@@ -7,6 +7,7 @@ a {
     color: black;
 }
 
+
 .pop {
   width: 500px;
   height:300px;
@@ -52,7 +53,7 @@ a {
 .contents {
   font-family: times;
   width: 50%;
-  font-size: 2vw;
+  font-size: 1.5vw;
   left: 0;
   padding-left: 10px;
   padding-top: 10px;
@@ -76,8 +77,9 @@ a {
 }
 
 .title {
-  font-family: 'space mono'; monospace;
+  font-family:'space mono'; monospace;
   color: blue;
+  font-size: 2vw;
 }
 
 .contact {

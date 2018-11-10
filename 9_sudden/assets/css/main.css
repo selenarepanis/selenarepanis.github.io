@@ -1,0 +1,13 @@
+body {
+background-color: black;
+}
+
+
+.text {
+  font-family: arial black;
+  color: white;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+
+}
