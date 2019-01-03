@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: peachpuff;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
 }
 
 .p-bye {
-  background-color: yellow;
+  background-color: lightgreen;
   border: 1px black solid;
   position: fixed;
   left:50px;
@@ -52,7 +52,7 @@ a {
 
 .contents {
   font-family: times;
-  width: 50%;
+  width: 45%;
   font-size: 1.5vw;
   left: 0;
   padding-left: 10px;
@@ -78,7 +78,7 @@ a {
 
 .title {
   font-family:'space mono'; monospace;
-  color: blue;
+  color: black;
   font-size: 2vw;
 }
 
