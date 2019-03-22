@@ -1,0 +1,56 @@
+body {
+background-color: peachpuff;
+}
+
+
+@font-face {
+	font-family: SuisseBook;
+	src: url("../fonts/SuisseIntl-Book-WebXL.woff");
+}
+
+@font-face {
+	font-family: TerminalGrotesque;
+	src: url("../fonts/terminal-grotesque-webfont.woff");
+}
+
+
+
+.welcome {
+  border: 1px solid black;
+  position: fixed;
+  width: 100%;
+  background-color: red;
+  padding: 20px;
+  line-height: 1.2em;
+  font-size: 1em;
+  font-family: monospace;
+}
+
+.strong {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.emphasis {
+  font-style: oblique;
+}
+
+.entry {
+  font-family: SuisseBook;
+  line-height: 1.3em;
+  font-size: 1em;
+  padding: 10px;
+  width: 70%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.title {
+  font-family: TerminalGrotesque;
+  font-size: 1.5em;
+}
+
+.img {
+  max-width: 200px;
+  max-height: 400px;
+}
