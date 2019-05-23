@@ -1,5 +1,5 @@
 body {
-background-color: peachpuff;
+background-color: thistle;
 }
 
 
@@ -13,13 +13,18 @@ background-color: peachpuff;
 	src: url("../fonts/terminal-grotesque-webfont.woff");
 }
 
+.signature {
+	position:fixed;
+	right: 30px;
+	bottom: 0;
+}
 
 
 .welcome {
   border: 1px solid black;
   position: fixed;
   width: 100%;
-  background-color: red;
+  background-color: plum;
   padding: 20px;
   line-height: 1.2em;
   font-size: 1em;
