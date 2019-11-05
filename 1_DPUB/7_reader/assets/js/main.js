@@ -1,30 +1,5 @@
 $(document).ready(function() {
 
-//* pop ups action *//
-
-  setTimeout(function() {
-    $(".p-sub").addClass("show");
-  }, 3000);
-
-  setTimeout(function() {
-    $(".p-bye").addClass("show");
-  }, 5000);
-
-  setTimeout(function() {
-    $(".p-congrats").addClass("show");
-  }, 8000);
-
-  $(".pop .close").click(function() {
-    $(this).parent().removeClass("show");
-  });
-
-  //* border upon click for pop ups *//
-
-  $('.pop').click(function() {
-    $('.pop').removeClass('border');
-    $(this).toggleClass('border');
-  });
-
 //* scroll to anchor*//
 
 $("#Main").click(function() {
@@ -71,26 +46,4 @@ $('a[href*="#"]')
         });
       }
     }
-  });
-
-//*sound*//
-
-  var audioHorn = document.createElement('audio');
-         audioHorn.setAttribute('src', 'https://www.soundjay.com/human/sounds/applause-5.mp3');
-         $.get();
-         audioHorn.addEventListener("load", function() {
-           audioHorn.play();
-         }, true);
-
-
-         $(".clap").hover(
-         function() {
-           audioHorn.play();
-         },
-         function() {
-           audioHorn.pause();
-         }
-       );
-
-
   });
