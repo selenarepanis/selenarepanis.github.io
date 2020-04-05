@@ -1,32 +1,33 @@
 body {
-background-color: black;
+background-color: lawngreen;
 font-family: times;
 }
 
+
 .box_top {
-position: fixed;
+position: absolute;
 text-align: left;
 flex-direction: column;
 border: 1px solid black;
 background-color: white;
-opacity: .9;
+opacity: .8;
 z-index: 4;
 }
 
 .box_bottom {
-position: fixed;
+position: absolute;
 text-align: left;
 flex-direction: column;
 border: 1px solid black;
 background-color: white;
-opacity: .9;
+opacity: .8;
 bottom: 0;
 z-index: 4;
 }
 
 .top {
-  font-family: antarctican-headline;
-  font-size: 25px;
+  font-family: times;
+  font-size: 20px;
   padding: 10px;
   color: black;
   top: 0;
@@ -34,39 +35,14 @@ z-index: 4;
 }
 
 .bottom {
-  font-family: antarctican-headline;
-  font-size: 25px;
+  font-family: modula-round-ribbed;
+  font-size: 45px;
   padding: 10px;
   color: black;
   bottom: 0;
   z-index: 10;
 }
 
-.main {
-display: grid;
-grip-gap: 0;
-width: calc(100% - 20px);
-margin-left: 10px;
-grid-template-columns: repeat(3, 1fr);
-grid-auto-rows: 50%;
-padding-bottom: 30px;
-padding-top: 30px;
-}
-
-.main_item {
-position: relative;
-text-align: left;
-flex-direction: column;
-border: 1px solid black;
-background-color: white;
-border-radius: 5px;
-padding: 20px;
-
-/*type*/
-font-family: antarctican-mono;
-font-weight:400;
-font-size: 15px;
-}
 
 .italic {
   font-style: italic;

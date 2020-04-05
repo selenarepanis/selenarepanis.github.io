@@ -1,0 +1,53 @@
+body {
+background-color: lawngreen;
+font-family: times;
+}
+
+
+.box_top {
+position: absolute;
+text-align: left;
+flex-direction: column;
+border: 1px solid black;
+background-color: white;
+opacity: .8;
+z-index: 4;
+}
+
+.box_bottom {
+position: absolute;
+text-align: left;
+flex-direction: column;
+border: 1px solid black;
+background-color: white;
+opacity: .8;
+bottom: 0;
+z-index: 4;
+}
+
+.top {
+  font-family: times;
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+  top: 0;
+  z-index: 10;
+}
+
+.bottom {
+  font-family: modula-round-ribbed;
+  font-size: 45px;
+  padding: 10px;
+  color: black;
+  bottom: 0;
+  z-index: 10;
+}
+
+
+.italic {
+  font-style: italic;
+}
+
+.small {
+  max-width: 50vh;
+}
