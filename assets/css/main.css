@@ -1,7 +1,3 @@
-body {
-background-color: lawngreen;
-font-family: times;
-}
 
 
 #mydivheader {
@@ -19,7 +15,7 @@ box-shadow: 5px 10px;
 
 
 #mydiv {
-  font-family: times;
+  font-family: pragmatica-condensed;
   font-size: 20px;
   padding: 10px;
   color: black;
@@ -30,7 +26,7 @@ box-shadow: 5px 10px;
 
 .bottom {
   font-family: modula-round-ribbed;
-  font-size: 45px;
+  font-size: 35px;
   padding: 10px;
   color: black;
   bottom: 0;
