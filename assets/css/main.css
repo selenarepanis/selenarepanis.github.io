@@ -4,36 +4,27 @@ font-family: times;
 }
 
 
-.box_top {
-position: absolute;
+#mydivheader {
 text-align: left;
-flex-direction: column;
 border: 1px solid black;
 background-color: white;
 opacity: .8;
+top: 0;
 z-index: 4;
-margin: 60px;
+cursor: move;
+padding: 10px;
 }
 
-.box_bottom {
-position: fixed;
-text-align: left;
-flex-direction: column;
-border: 1px solid black;
-background-color: white;
-opacity: .8;
-bottom: 0;
-z-index: 4;
-margin: 60px;
-}
 
-.top {
+
+#mydiv {
   font-family: times;
   font-size: 20px;
   padding: 10px;
   color: black;
   top: 0;
   z-index: 10;
+  position: absolute;
 }
 
 .bottom {
@@ -48,8 +39,4 @@ margin: 60px;
 
 .italic {
   font-style: italic;
-}
-
-.small {
-  max-width: 50vh;
 }
