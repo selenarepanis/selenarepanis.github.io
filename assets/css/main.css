@@ -1,4 +1,6 @@
-
+.body {
+  background-color: pink;
+}
 
 #mydivheader {
 text-align: left;
@@ -7,28 +9,32 @@ opacity: .8;
 z-index: 4;
 cursor: move;
 padding: 10px;
-box-shadow: 5px 10px;
+box-shadow: 4px 5px;
 }
 
 #mydiv {
-  font-family: pragmatica-condensed;
-  font-size: 20px;
+  font-family: fixedsys;
+  font-size: 17px;
   padding: 10px;
   color: black;
   z-index: 10;
   position: absolute;
 }
 
-.bottom {
-  font-family: modula-round-ribbed;
-  font-size: 35px;
-  padding: 10px;
+#secondary {
+  font-family: arial;
+  font-size: 15px;
+  font-style: normal;
   color: black;
-  bottom: 0;
-  z-index: 10;
 }
 
+#mini {
+font-family: cursive;
+font-size: 10px;
+font-weight: 600;
+}
 
-.italic {
-  font-style: italic;
+#main {
+    font-family: fixedsys;
+    font-size: 16px;
 }
